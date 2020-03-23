@@ -1,0 +1,88 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Login and read the message",
+        "description": "",
+        "id": "login-to-e-site;login-and-read-the-message",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 27521843463,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "try to login page using credetials from excel",
+            "match": {
+              "location": "ReandAndWrite.login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 76996025383,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "read and write operation of excel",
+            "match": {
+              "location": "ReandAndWrite.read()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 638507350,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "quit the browser",
+            "match": {
+              "location": "ReandAndWrite.quit()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "login to E-site",
+    "description": "",
+    "id": "login-to-e-site",
+    "keyword": "Feature",
+    "uri": "login.feature"
+  }
+]ggerAddress: localhost:56376}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: a8ba75eb8a88e848c56bde8c94893e75\n*** Element info: {Using\u003dxpath, value\u003d//input[@id\u003d\u0027email\u0027]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat stepDefinition.ReandAndWrite.read(ReandAndWrite.java:37)\r\n\tat ✽.Then read and write operation of excel(login.feature:6)\r\n",
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "read and write operation of excel",
+            "match": {
+              "location": "ReandAndWrite.read()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "quit the browser",
+            "match": {
+              "location": "ReandAndWrite.quit()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "login to E-site",
+    "description": "",
+    "id": "login-to-e-site",
+    "keyword": "Feature",
+    "uri": "login.feature"
+  }
+]

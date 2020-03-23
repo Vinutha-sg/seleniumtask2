@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="106289" started-at="2020-03-23T06:48:51Z" finished-at="2020-03-23T06:50:37Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="TestngRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:MyRunner.TestngRunner@6325a3ee]" name="feature" class="MyRunner.TestngRunner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="106289" started-at="2020-03-23T06:48:51Z" finished-at="2020-03-23T06:50:37Z">
+      <class name="MyRunner.TestngRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:MyRunner.TestngRunner@6325a3ee]" name="setUpClass" is-config="true" duration-ms="787" started-at="2020-03-23T06:48:51Z" finished-at="2020-03-23T06:48:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:MyRunner.TestngRunner@6325a3ee]" name="feature" duration-ms="105247" started-at="2020-03-23T06:48:52Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-03-23T06:50:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[login to E-site]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:MyRunner.TestngRunner@6325a3ee]" name="tearDownClass" is-config="true" duration-ms="29" started-at="2020-03-23T06:50:37Z" finished-at="2020-03-23T06:50:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- MyRunner.TestngRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
